@@ -1,0 +1,46 @@
+.container{
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  width: 60%;
+  margin: 0 auto 50px;
+  line-height: 1.5;
+}
+
+ul li {
+  list-style: none;
+}
+
+h1{
+  text-align: center;
+  text-decoration: underline;
+}
+
+.numeros{
+  position: relative;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  margin: 90px 0 0 0;
+}
+
+.numerosOrder{
+  padding: 10px;
+  width: 15%;
+  text-align: center;
+}
+
+.numerosOrder:first-child{
+  border: 5px solid;
+  transition: border 0.1s linear, box-shadow 0.1s linear;
+}
+
+.active{
+    border-color: #000;
+}
+
+.numberItem{
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 30px;
+  position: relative;
+  margin: 0 10px;
+}
